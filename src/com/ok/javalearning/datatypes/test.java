@@ -12,6 +12,8 @@ public class test {
 //        System.out.println(text.charAt(1));
 
 
+
+
 //        boolean isSunny=true;
 //        boolean isWarm=false;
 //
@@ -20,39 +22,61 @@ public class test {
 //        }
 //        else System.out.println("not a beach day");
 
-        int day=2;
-        String dayname;
-
-        switch (day){
-            case 1:
-                dayname="saturday";
-                break;
-            case 2:
-                dayname="sunday";
-                break;
-            case 3:
-                dayname="Monday";
-                break;
-            case 4:
-                dayname="Tuesday";
-                break;
-            case 5:
-                dayname="Wednesday";
-                break;
-            case 6:
-                dayname="Thursday";
-                break;
-            case 7:
-                dayname="Friday";
-                break;
-            default:
-                dayname="Unknown";
 
 
+
+//        int day=2;
+//        String dayname;
+//
+//        switch (day){
+//            case 1:
+//                dayname="saturday";
+//                break;
+//            case 2:
+//                dayname="sunday";
+//                break;
+//            case 3:
+//                dayname="Monday";
+//                break;
+//            case 4:
+//                dayname="Tuesday";
+//                break;
+//            case 5:
+//                dayname="Wednesday";
+//                break;
+//            case 6:
+//                dayname="Thursday";
+//                break;
+//            case 7:
+//                dayname="Friday";
+//                break;
+//            default:
+//                dayname="Unknown";
+//
+//
+//        }
+//
+//
+//        System.out.println(dayname);
+
+
+
+
+
+
+//
+
+
+
+       // int[] myArray=new int[10];
+
+        int[] myArray={1,2,3,4,5};
+
+
+
+        for(int i=0;i<myArray.length;i++){
+            System.out.println(myArray[i]);
         }
-
-
-        System.out.println(dayname);
 
 
 
