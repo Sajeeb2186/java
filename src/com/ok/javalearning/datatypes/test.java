@@ -5,8 +5,11 @@ public class test {
     public static void main(String[] args) {
 
 
-         char a='b';
-        System.out.println((int)a);
+
+        String text="hello world";
+        System.out.println(text.toUpperCase());
+        System.out.println(text.length());
+        System.out.println(text.charAt(1));
 
     }
 
